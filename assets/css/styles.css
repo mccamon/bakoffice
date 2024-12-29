@@ -1,0 +1,64 @@
+/* Basic styling for the site */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+header a:hover {
+  background-color: #444;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.coming-soon-message {
+  font-size: 1.5em;
+  margin: 20px 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.content {
+  margin: 50px 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
